@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    background-color:rgb(10, 17, 35);
+    color: bisque;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+ .p{ 
+
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.3s ease;
+    margin-top:40px;
+} 
+
+
+.p:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 0 15px rgb(243, 222, 180); 
+}
+ 
+.pp{
+  text-align: center;
+}
+
+.about{
+    padding:10px;
+    padding-top: 25px;
+}
+span {
+  padding:5px;
+  display: block;
+
+}
+.navbar {
+  background-color: rgb(58,62,108);
+  
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  transition: all 0.3s ease;
+}
+
+.navbar a {
+  color: rgb(58, 62, );
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.navbar a:hover {
+  color: rgb(149,155,181);
+
+}
+section {
+  
+  padding:50px;
+}
+#about ,#skills ,#contact,#education{
+  border-bottom: 1px solid rgb(138,140,172);
+}
+.g{
+  transition: all 0.3s ease;
+
+ border-radius:50%;
+}
+.s{
+  transition: all 0.3s ease;
+  border-radius:50%;
+}
+.g:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 0 15px #e7c287; 
+}
+.s:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 0 15px #2f5c74; 
+}
+
+.ed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px; 
+  margin-top: 20px;
+  flex-wrap: wrap; 
+}
+
+.ed figure {
+  text-align: center;
+}
+
+.ed img {
+  width: 150px;        
+  height: auto;
+  border-radius: 50%;  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ed img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #00f7ff; 
+}
+
+.ed figcaption {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.skills-list li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.skills-list img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+
+.skills-list img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 12px rgba(226, 226, 221, 0.867);
+}
+.contact-section {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px; 
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact-icons img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+}
+
+.contact-icons img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(253, 236, 137, 0.97);
+}

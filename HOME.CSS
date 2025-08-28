@@ -1,0 +1,32 @@
+/* tag selector */
+h1 {
+    font-family: 'times new roman',Times, serif;
+    font-size: small;
+    color: rgb(136, 4, 4);
+}
+p {color: rgb(183, 96, 33);}
+/* class selector */
+.box {
+    border: 2px solid rgb(16, 2, 2)
+}
+{
+    margin: 0;
+    paadding: 0;
+}
+h6{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+table{
+   font size: 14px;
+   font-family: 'times new roman', times,serif;
+   text-align: center;
+   border: 2px solid dodgerblue;
+   margin: auto
+
+}
+td,th
+{
+    border: 1px solid black;
+}
