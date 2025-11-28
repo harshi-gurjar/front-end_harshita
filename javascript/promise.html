@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>API Data</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        #container {
+            border: 2px solid rgb(191,15,15);
+            height: 200px;
+            width: 200px;
+            margin: 5px;
+            margin-left: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h6>Data call through Promise</h6>
+    <div id="container">
+
+    </div>
+    <button>Get Data</button>
+    <div id="error">
+        Error is loading...
+    </div>
+    <script>
+        let api="https://dummyjson.com/products/1";
+        let myPromises=new Promise((done,fail)=>{
+            fetch(api)
+            .then(response => response.json())
+            .then(info =>done(info))
+            .catch(error =>fail(error))
+        })
+    </script>
+    
+</body>
+</html>

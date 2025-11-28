@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        p{
+            font-size: 8px;
+            text-align: center;
+            color: brown;
+        }
+        .container{
+            border:2px solid black;
+            border-top-color: rebeccapurple;
+            border-bottom-color: greenyellow;
+            border-left-color:dodgerblue ;
+            border-right-color:sandybrown ;
+            width: 300px;
+            margin-left: 200px;
+        }
+        .form{
+            margin-left:18px;
+            margin-top: 5px;
+        }
+        h5{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h5>Student Details</h5>
+        <hr>
+        <form class="form"> 
+            <label>First name:</label><br>
+            <input id="fname" type="text" placeholder="Enter your first name " /><br>
+            <label>Last name:</label><br>
+            <input id="lname" type="text" placeholder="Enter your last name" /><br>
+            <label>Email</label><br>
+            <input id="eMail" type="text" placeholder="Enter your email"/><br>
+            <label>Password</label><br>
+            <input id="myPass" type="password" /><br><br>
+            <input id="submitbtn" type="submit" value="Register" /><br><br>
+        </form>
+        <hr>
+        <p>This form is used for Student help desk</p>
+    </div>
+    <script>
+         console.log("Hello World")
+         let fname=document.getElementById('fname').value;
+         let lname=document.getElementById('lname').value;
+         let email=document.getElementById('eMail').value;
+         let myPassword=document.getElementById('myPass').value;
+         let submit=document.getElementById('submitbtn')
+    </script>
+</body>
+</html>
